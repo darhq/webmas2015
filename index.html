@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Webmas</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    var hash = this.hash;
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+      window.location.hash = hash;
+    });
+  });
+});
+</script>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<style type="text/css">
+	@media screen and (max-width:600px){
+	nav li{display:block;}
+	nav a{display:block; padding:0; border-bottom:1px solid DodgerBlue;}
+	nav a:hover{border-radius:0;}
+	.menu{top:-350px; height:auto;}
+	.char{width:100%;}
+	.contact{width:100%;}
+}
+	</style>
+</head>
+
+<body>
+<div id="container">
+
+<input type="checkbox" id="menuToggle">
+<label for="menuToggle" class="menu-icon">&#9776; </label>
+
+	<header>
+		<div id="brand">WEBMAS 2015</div>
+	</header>
+	
+	<nav class="menu">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#ch">CHARITIES</a></li>
+			<li><a href="#ld">TEAM LEADERS</a></li>
+			<li><a href="#mm">MEMBERS</a></li>
+			<li><a href="#sp">SPONSORS</a></li>
+			<li><a href="#cn">CONTACT</a></li>
+		</ul>
+	</nav>
+</div>
+
+<section><h6>.</h6>
+		<div id="buttons">
+			<div class="but">
+			<a href="#"><img src="graphics/homebut.png" alt="some_text"/></a>
+			</div>
+			
+			<div class="but">
+			<a href="#ch"><img src="graphics/charbut.png" alt="some_text"/></a>
+			</div>
+			
+			<div class="but">
+			<a href="#ld"><img src="graphics/leadbut.png" alt="some_text"/></a>
+			</div>
+			
+			<div class="but">
+			<a href="#mm"><img src="graphics/membut.png" alt="some_text"/></a>
+			</div>
+			
+			<div class="but">
+			<a href="#sp"><img src="graphics/sponbut.png" alt="some_text"/></a>
+			<br/>
+			</div>
+
+			<div class="but">
+			<a href="#cn"><img src="graphics/conbut.png" alt="some_text"/></a>
+			<br/>
+			</div>
+</div>			
+		</section>
+		
+		<br/>
+			<div id="video">
+			<iframe width="500" height="300" src="https://www.youtube.com/embed/BWg8xkv0llE"  allowfullscreen></iframe>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+			</p>
+			<br/>
+</div>
+		
+		<div class="section">
+		<a id="ch"></a>
+			<div class="mark"><img src="graphics/charbut.png" alt="some_text"/></div>
+			<br/>
+			<h1>CHARITIES</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+			</p>
+			<div id="wrap">
+			<div class="char">
+			
+			<h2>Charity 1</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/charity1.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			
+			<h2>Charity 2</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/charity2.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			
+			<h2>Charity 3</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/charity3.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			
+			<h2>Charity 4</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/charity4.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			
+			<h2>Charity 5</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/charity5.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</div>	
+			</div>
+		</div>
+	
+		
+		<br/>
+		
+		<div class="section">
+			<a id="ld"></a>
+			<div class="mark"><img src="graphics/leadbut.png" alt="some_text"/></div>
+			<br/>
+			
+			<h1>TEAM LEADERS</h1>
+			
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+			</p>
+			
+			<div class="char">
+			
+			<h2>Team leader 1</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team-leader1.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Team leader 2</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team-leader2.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Team leader 3</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team-leader3.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Team leader 4</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team-leader4.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Team leader 5</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team-leader5.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+		</div>
+		
+		<br/>
+		
+		<div class="section">
+			<a id="mm"></a>
+			<div class="mark"><img src="graphics/membut.png" alt="some_text"/></div>
+			<br/>
+			<h1>MEMBERS</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+			</p>
+			
+			<div class="char">
+			<h2>Team 1</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team1.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Team 2</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team2.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Team 3</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team3.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Team 4</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team4.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Team 5</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/team5.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			<br/>
+			</div>
+		</div>
+		
+		<br/>
+		
+		<div class="section">
+			<a id="sp"></a>
+			<div class="mark"><img src="graphics/sponbut.png" alt="some_text"/></div>
+			<br/>
+			<h1>SPONSORS</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+			</p>
+			
+			<div class="char">
+			<h2>Sponsor 1</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/Sponsor1.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Sponsor 2</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/Sponsor2.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Sponsor 3</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/Sponsor3.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Sponsor 4</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/Sponsor4.jpg" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			</div>
+			
+			<div class="char">
+			<h2>Sponsor 5</h2>
+			<a href="#" data-toggle="tooltip" title="Information considering this particular charity, leader, team members, sponsors, etc."><img src="graphics/Sponsor5.png" alt="some_text"/></a>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			<br/>
+			</div>
+		</div>
+		
+		<br/>
+		
+		<div class="section">
+			<a id="cn"></a>
+		<div class="mark"><img src="graphics/conbut.png" alt="some_text"/></div>
+			<br/>
+			<h1>CONTACT</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+			</p>
+			
+			<div class="contact">
+			<h2>Sponsors</h2>
+			
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			<form action="action_page.php">
+			
+			Name:<br/>
+			<input class="text"  type="text" name="firstname" value="">
+			<br/>
+			<br/>
+			Address:<br/>
+			<input class="text"  type="text" name="lastname" value="">
+			<br/><br/>
+			
+			Type your message here:
+			<br/>
+			<textarea class="text"  name="message" rows="10" cols="30">	
+			</textarea>
+			
+			<br/>
+			
+			<input class="submit" type="submit" value="Submit">
+			<input class="reset" type="reset" value="Reset">
+			</form>
+			</div>
+			
+			<div class="contact">
+			<h2>Charities</h2>
+			
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+			<form action="action_page.php">
+			
+			Name:<br/>
+			<input class="text" type="text" name="firstname" value="">
+			<br/>
+			<br/>
+			Address:<br/>
+			<input class="text" type="text" name="lastname" value="">
+			<br/><br/>
+			
+			Type your message here:
+			<br/>
+			<textarea class="text" name="message" rows="10" cols="30">
+			</textarea>
+			
+			<br/>
+			
+			<input class="submit" type="submit" value="Submit">
+			<input class="reset" type="reset" value="Reset">
+			</form>
+			</div>
+		</div>
+		
+		<br/>
+		<br/>
+		<br/>
+		
+		<br/>
+		
+		
+		<footer>
+		<a href="#" class="back-to-top">Back to Top</a>
+		
+			<section>
+			
+			
+				<h2>CONNECT WITH US</h2>
+				<ul class="social">
+					<li><a href="https://www.facebook.com/"><img src="graphics/fb.png" alt="some_text"/></a></li>
+					<li><a href="https://ie.linkedin.com/"><img src="graphics/linked.png" alt="some_text"/></a></li>
+					<li><a href="https://twitter.com/"><img src="graphics/twit.png" alt="some_text"/></a></li>
+					<li><a href="https://plus.google.com/"><img src="graphics/goog.png" alt="some_text"/></a></li>
+				</ul>
+			</section>
+			
+		</footer>
+		<footer class="second">
+			<p>@ Copyright - D H 2015</p>
+		</footer>
+		
+		
+		<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+<script type="text/javascript">
+	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+	var amountScrolled = 300;
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.back-to-top').fadeIn('slow');
+	} else {
+		$('a.back-to-top').fadeOut('slow');
+	}
+});
+$('a.back-to-top').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+
+
+</body>
+</html>
